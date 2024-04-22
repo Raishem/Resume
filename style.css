@@ -1,10 +1,12 @@
 body {
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Minimum height of the viewport */
+    position: relative;
 }
 
 .container {
-    margin: auto;
-    padding: 2px;
+   
 }
 
 .header {
@@ -67,10 +69,9 @@ hr.new4 {
     display: flex;
     background-color: gray;
     justify-content: center;
-    width: 756px;
+    width: 49.7%;
     height: 70%;
     left: 50%;
-    
     border-left: 2px solid black;
 }
 #aboutme {
@@ -101,7 +102,7 @@ left: 500px;
 }
 #rizzz {
     position: absolute; 
-    top: 60%;
+    top: 66%;
     font-size: 20px;
 }
 #Javascript {
@@ -153,9 +154,26 @@ left: 500px;
     position: absolute;
     width: 40%; 
     height: 10px;
-    top: 70%;
-    right: 210px;
-    
+    top: 76%;
+    right: 200px;
 } 
-
+.header2 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+ }
+ .footer {
+    position: absolute;
+    left: 0;
+    
+    width: 100%;
+    top: 140%;
+    background-color: white;
+    color: black;
+    text-align: center;
+ }
 
