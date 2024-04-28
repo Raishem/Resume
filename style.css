@@ -6,8 +6,10 @@ body {
 }
 
 .container {
+ 
    
 }
+
 
 .header {
     position: relative;
@@ -50,6 +52,13 @@ hr.new4 {
     width: 180%;
     right: 6%;
   }
+
+hr.line {
+    position: absolute;
+    border: 1px solid black;
+    width: 50%;
+    top: 32%;
+}
    #contact , #email {
     position: relative;
     left: 230px;
@@ -61,55 +70,55 @@ hr.new4 {
     display: flex;
     background-color: gray;
     justify-content: center;
-    width: 50%;
-    height: 70%;
+    width: 100%;
+    height: 110%;
 }
-.body2 {
-    position: absolute;
-    display: flex;
-    background-color: gray;
-    justify-content: center;
-    width: 49.7%;
-    height: 70%;
-    left: 50%;
-    border-left: 2px solid black;
-}
+
 #aboutme {
-    position: absolute;
     font-size: 40px;
+}
+#aboutme1 {
+    font-size: 40px;
+    top: 33%;
+    position: absolute;
 }
 #about {
     position: absolute;
     font-size: 23px;
     margin: 30px;
     top: 80px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
 }
 
-.skills1 {
+.skills2 {
     position: absolute;
     display: inline-block; 
-    top: 20%;
+    top: 50%;
     font-size: 20px;
-right: 500px;
+right: 400px;
+width: 20%;
 
 }
-.skills2 {
+.skills1 {
 position: absolute;
 display: inline-block; 
-top: 20%;
+top: 50%;
 font-size: 20px;
-left: 500px;
+left: 400px;
+width: 20%;
 }
 #rizzz {
     position: absolute; 
-    top: 66%;
+    top: 80%;
     font-size: 20px;
 }
 #Javascript {
-    margin-top: 40%;
+    margin-top: 20%;
 }
 #Gaming {
-    margin-top: 60%;
+    margin-top: 20%;
 }
 
 .container1 { 
@@ -145,35 +154,27 @@ left: 500px;
     background-color: rgb(192, 192, 192); 
     color: white; 
     padding: 1%; 
-    text-align: center; 
+   text-align: center; 
+   justify-content: center;
+   display: flex;
     font-size: 20px; 
     border-radius: 15px; 
-    justify-content: center;
+    height: 2px;
 } 
 .html4 { 
     position: absolute;
-    width: 40%; 
-    height: 10px;
-    top: 76%;
-    right: 200px;
-} 
-.header2 {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    background-color: white;
-    color: black;
-    text-align: center;
- }
- .footer {
-    position: absolute;
-    left: 0;
+    width: 30%; 
     
-    width: 100%;
-    top: 140%;
-    background-color: white;
-    color: black;
+    top: 87%;
+    right: 33%;
+} 
+
+/** footer {
+    background: #dddee1;
+    padding: 5vh 0;
     text-align: center;
- }
+    position: relative;
+    bottom: 0;
+  } */
+
 
