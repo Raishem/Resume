@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cons": "^0.0.2",
+    "express": "^4.19.2"
+  }
+}
