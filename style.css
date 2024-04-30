@@ -3,6 +3,7 @@ body {
     padding: 0;
     min-height: 100vh; /* Minimum height of the viewport */
     position: relative;
+    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -116,7 +117,7 @@ padding: 10px;
     display: inline-block; 
     top: 28%;
     font-size: 20px;
-right: 600px;
+right: 550px;
 width: 20%;
 
 }
