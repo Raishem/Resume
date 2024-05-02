@@ -40,7 +40,7 @@ body {
     top: 18%;
     left: 43%;
 }
-#job {
+#fjob {
     position: absolute;
     font-size: 35px;
     top: 50%;
@@ -198,3 +198,15 @@ width: 20%;
   } */
 
 
+  .personal_info {
+    position: absolute;
+    font-size: 23px;
+    margin: 30px;
+    top: 80px;
+    border: 2px solid rgb(235, 164, 11);
+    border-radius: 20px;
+    padding: 20px;
+    width: 40%;
+    left: 0;
+    padding: 9px 20px 10px 35px;
+}

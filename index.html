@@ -11,89 +11,43 @@
 
 <div class="header">
 <img class="profile" src="images/suss.jpg" alt="Photo">
-<p id="name">Shem John Juevesano</p>
-<p id="job">Full Stack Developer</p>
+<p id="name"></p>
+<p id="fjob"></p>
 
     <hr class="new4">
-
 </div>
-
+<div class="personal_info">
+    <p id="name">Name:</p>
+    <p id="Address">Address:</p>
+    <p id="Age">Age:</p>
+    <p id="Birthdate">Birthdate:</p>
+    <p id="Gender">Gender:</p>
+</div>
 
 <div class="body">
-    
     <p id="aboutme">About Me</p>
-    <p id="about">Hello! I'm Shem, and for now, I am still a 2nd year College of Computer Studies student. I am aiming to enhance my coding skills especially in HTML, CSS, Javascript, and more! That's because I'm dreaming of becoming a full-stack developer.</p>
+    <p id="Description"></p>
     <p id="aboutme1">Professional Skills</p>
-    <div class="skills1">
-    <p id="HTML-CSS">HTML/CSS</p>
-    <div class="container1"> 
-        <div class="skill html">80%</div> 
-    </div> 
-    <p id="Javascript">JAVASCRIPT</p>
-    <div class="container1"> 
-        <div class="skill html1">50%</div> 
-    </div> 
-</div>
-<div class="skills2">
-    <p id="PHP">PHP</p>
-    <div class="container1"> 
-        <div class="skill html2">40%</div> 
-    </div> 
-    <p id="Gaming">GAMING</p>
-    <div class="container1"> 
-        <div class="skill html3">90%</div> 
-    </div> 
-</div>
-<p id="rizzz">RIZZZ</p>
-<div class="container2"> 
-    <div class="skill1 html4">0%</div> 
+
+    <ul id="skills"></ul>
+
+    <ul id="education"></ul>
+
+    <div class="work">
+        <p id="work_experience"></p>
+    </div>
+
+    <div class="ref">
+        <p id="references"></p>
+    </div>
 </div>
 
-</div>
 
-<script>
-    fetch('https://resumewebservice.onrender.com/')
-    .then (response => response.json())
-    .then (data => {
-        document.getElementById('level').innerText = data.education.level;
-        document.getElementById('school').innerText = data.education.school;
-        document.getElementById('year').innerText = data.education.year;
-        document.getElementById('schooladdress').innerText = data.education.schooladdress;
-        document.getElementById('course').innerText = data.education.course;
-
-        const skills = document.getElementById('skills');
-        data.skills.forEach(skill => {
-            const li = document.createElement('li');
-            li.innerText = skill;
-
-            skills.appendChild(li);
-        });
-
-        const experience = document.getElementById('experience');
-
-        data.experienceforEach(exp => {
-            const li = document.createElement('li');
-            li.innerText = exp;
-
-            experience.appendChild(li);
-        });
-
-        document.getElementById('name').innerText=data.personal_info.name;
-        document.getElementById('Address').innerText=data.personal_info.Address;
-        document.getElementById('ContactNo').innerText=data.personal_info.ContactNo;
-        document.getElementById('Email').innerText=data.personal_info.Email;
-        document.getElementById('Birthdate').innerText=data.personal_info.Birthdate;
-        document.getElementById('Age').innerText=data.personal_info.Age;
-        document.getElementById('Gender').innerText=data.personal_info.Gender;
-    })
-    .catch(error => {
-        console.error('Error fetching data:',error);
-    });
-</script>
 
    
 
     
 </div>
+<script src="script.js"></script>
 </body>
 </html>
