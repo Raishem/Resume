@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    min-height: 100vh; /* Minimum height of the viewport */
+    
     position: relative;
     font-family: Arial, sans-serif;
 }
@@ -36,15 +36,16 @@ body {
 
 #name {
     position: absolute;
-    font-size: 60px;
+    font-size: 55px;
     top: 18%;
     left: 43%;
 }
-#fjob {
+#job {
     position: absolute;
     font-size: 35px;
     top: 50%;
     left: 43%;
+    color: white;
 }
 #description {
     top: 50%;
@@ -59,33 +60,39 @@ hr.new4 {
     left: 43%;
     top: 50%;
   }
-
+.body img {
+    height: 1150px;
+}
 
 
 .body {
     position: relative;
     display: flex;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/007/104/955/non_2x/luxury-abstract-background-with-golden-and-black-shapes-metal-texture-steel-background-vactor-design-illustration-free-vector.jpg");
-    justify-content: center;
-    height: 1450px;
-    background-repeat: no-repeat;
-    background-size: auto;
-    color: white;
     
-}
-#skills {
-    position: relative;
-    display: flex;
+    justify-content: center;
+    align-items: center; /* Center content vertically */
+    min-height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
 }
 
-#aboutme {
+#aboutme1 {
 position: absolute;
     font-size: 40px;
-    right: 70%;
+    right: 72%;
+    border: 2px solid rgb(235, 164, 11);
+    border-radius: 10px;
+    border-radius: 10px;
+padding: 10px;
+top: 0;
 }
-#aboutme1 {
+
+#educ {
     font-size: 40px;
-    top: 19%;
+    top: 25%;
     position: absolute;
     left: 0;
     border: 2px solid rgb(235, 164, 11);
@@ -93,18 +100,128 @@ position: absolute;
     border-bottom-right-radius: 40px;
 padding: 10px;
 }
+#education {
+    position: absolute;
+    font-size: 17px;
+    top: 35%;
+    width: 100%;
+}
+.level {
+    background-color: #d6ad24;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    width: 38%;
+    font-size: 12px;
+}
+
+
+#aboutme {
+        font-size: 40px;
+        top: 0;
+        position: absolute;
+        right: 23%;
+        border: 2px solid rgb(235, 164, 11);
+        border-radius: 10px;
+        border-radius: 10px;
+    padding: 10px;
+}
+    #about_me {
+        position: absolute;
+        font-size: 23px;
+        margin: 30px;
+        border: 2px solid rgb(235, 164, 11);
+        border-radius: 20px;
+        padding: 20px;
+        width: 35%;
+        padding: 9px 20px 10px 35px;
+        color: white;
+        left: 50%;
+        top: 10%;
+        }
+
+        #more {
+            font-size: 40px;
+            top: 30%;
+            position: absolute;
+            right: 17.4%;
+            border: 2px solid rgb(235, 164, 11);
+            border-radius: 10px;
+            border-radius: 10px;
+        padding: 10px;
+        border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+    }
+
+    
+    #skills {
+        position: absolute;
+    font-size: 30px;
+    right: 83%;
+    top: 93px;
+    }
 
 
 
   .personal_info {
     position: absolute;
-    font-size: 23px;
+    font-size: 20px;
     margin: 30px;
-    top: 80px;
+    top: 36.8%;
     border: 2px solid rgb(235, 164, 11);
     border-radius: 20px;
     padding: 20px;
-    width: 40%;
-    left: 0;
+    width: 30%;
+    left: 58%;
     padding: 9px 20px 10px 35px;
+    color: white;
+    border-top-left-radius: 0;
+    
 }
+
+.body2 {
+    box-sizing: border-box;
+ padding: 100px;
+ position: relative;
+    justify-content: center;
+    display: flex;
+    margin: 0%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/105/007/non_2x/luxury-abstract-background-with-golden-and-black-shapes-metal-texture-steel-background-vactor-design-illustration-free-vector.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 1349px 400px;
+    color: white;
+    border-top: 2px solid rgb(235, 164, 11);
+}
+
+#refer {
+
+}
+#exp {
+
+}
+#award {
+    font-size: 40px;
+            top: 73.2%;
+            position: absolute;
+            right: 17%;
+            border: 2px solid rgb(235, 164, 11);
+            border-radius: 10px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        padding: 10px;
+}
+#awards {
+    position: absolute;
+    font-size: 20px;
+    margin: 30px;
+    top: 80%;
+    border: 2px solid rgb(235, 164, 11);
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+    left: 58%;
+    padding: 9px 20px 10px 35px;
+    color: white;
+}
+
