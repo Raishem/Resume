@@ -39,9 +39,9 @@ data.education.forEach(edu => {
             <h2>${edu.level}</h2>
         </div>
         <div class="details">
-            <p>${edu.school}</p>
-            <p>${edu.schooladdress}</p>
-            <p>${edu.year}</p>
+            <p>School: ${edu.school}</p>
+            <p>School Address: ${edu.schooladdress}</p>
+            <p>School Year: ${edu.year}</p>
         </div>
     `;
     educationContainer.appendChild(eduItem);
@@ -55,20 +55,22 @@ data.education.forEach(edu => {
             experienceList.appendChild(li);
         });
         
-        const referencesContainer = document.getElementById('references');
-        data.references.forEach(references => {
-            references.classList.add('references-item');
-    references.innerHTML = `
+const referencesContainer = document.getElementById('references');
+data.references.forEach(refer => {
+    const referItem = document.createElement('li');
+    referItem.classList.add('references-item');
+    referItem.innerHTML = `
         <div class="namee">
-            <h2>${references.namee}</h2>
+            <h2>${refer.namee}</h2>
         </div>
         <div class="details">
-            <p>${references.contactnum}</p>
-            <p>${references.work}</p>
+            <p>${refer.contactnum}</p>
+            <p>${refer.work}</p>
         </div>
     `;
-    referencesContainer.appendChild(references);
+    referencesContainer.appendChild(referItem);
 });
+
     })
     .catch(error => {
         console.error('Error fetching data:', error);
