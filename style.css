@@ -36,7 +36,7 @@ body {
 
 #name {
     position: absolute;
-    font-size: 55px;
+    font-size: 50px;
     top: 18%;
     left: 43%;
 }
@@ -81,8 +81,8 @@ hr.new4 {
 
 #aboutme1 {
 position: absolute;
-    font-size: 40px;
-    right: 72%;
+    font-size: 30px;
+    right: 76%;
     border: 2px solid rgb(235, 164, 11);
     border-radius: 10px;
     border-radius: 10px;
@@ -91,8 +91,8 @@ top: 0;
 }
 
 #educ {
-    font-size: 40px;
-    top: 25%;
+    font-size: 30px;
+    top: 26%;
     position: absolute;
     left: 0;
     border: 2px solid rgb(235, 164, 11);
@@ -102,7 +102,7 @@ padding: 10px;
 }
 #education {
     position: absolute;
-    font-size: 17px;
+    font-size: 16px;
     top: 35%;
     width: 100%;
 }
@@ -117,34 +117,36 @@ padding: 10px;
 
 
 #aboutme {
-        font-size: 40px;
+        font-size: 30px;
         top: 0;
         position: absolute;
-        right: 23%;
+        right: 39.1%;
         border: 2px solid rgb(235, 164, 11);
-        border-radius: 10px;
-        border-radius: 10px;
+        border-radius: 10px; 
     padding: 10px;
+    border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
 }
     #about_me {
         position: absolute;
-        font-size: 23px;
+        font-size: 20px;
         margin: 30px;
         border: 2px solid rgb(235, 164, 11);
         border-radius: 20px;
+        border-top-left-radius: 0;
         padding: 20px;
         width: 35%;
         padding: 9px 20px 10px 35px;
         color: white;
-        left: 50%;
-        top: 10%;
+        left: 45%;
+        top: 4.9%;
         }
 
         #more {
-            font-size: 40px;
-            top: 30%;
+            font-size: 30px;
+            top: 23%;
             position: absolute;
-            right: 17.4%;
+            right: 20%;
             border: 2px solid rgb(235, 164, 11);
             border-radius: 10px;
             border-radius: 10px;
@@ -167,12 +169,12 @@ padding: 10px;
     position: absolute;
     font-size: 20px;
     margin: 30px;
-    top: 36.8%;
+    top: 27.9%;
     border: 2px solid rgb(235, 164, 11);
     border-radius: 20px;
     padding: 20px;
     width: 30%;
-    left: 58%;
+    left: 57.6%;
     padding: 9px 20px 10px 35px;
     color: white;
     border-top-left-radius: 0;
@@ -186,45 +188,55 @@ padding: 10px;
     justify-content: center;
     display: flex;
     margin: 0%;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/007/105/007/non_2x/luxury-abstract-background-with-golden-and-black-shapes-metal-texture-steel-background-vactor-design-illustration-free-vector.jpg");
-    height: 400px;
+    background-image: url("");
+    height: 500px;
     background-repeat: no-repeat;
     background-size: 1349px 400px;
     color: white;
     border-top: 2px solid rgb(235, 164, 11);
 }
-
-#refers {
+.body2 img {
+    top: 0;
     position: absolute;
-    font-size: 20px;
-    margin: 30px;
-    top: 80%;
-    border: 2px solid rgb(235, 164, 11);
-    border-radius: 20px;
-    padding: 20px;
-    width: 30%;
-    left: 58%;
-    padding: 9px 20px 10px 35px;
-    color: white;
+    height: 110%;
+    width: 100%;
 }
+
 #exp {
     position: absolute;
     font-size: 20px;
     margin: 30px;
-    top: 80%;
+    top: 15.8%;
+    border: 2px solid rgb(235, 164, 11);
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    padding: 20px;
+    left: 20.5%;
+    padding: 9px 20px 10px 35px;
+    color: white;
+    width: 170px;
+}
+#experience {
+    position: absolute;
+    font-size: 20px;
+    margin: 30px;
+    top: 25%;
     border: 2px solid rgb(235, 164, 11);
     border-radius: 20px;
     padding: 20px;
     width: 30%;
-    left: 58%;
+    left: 20.5%;
     padding: 9px 20px 10px 35px;
     color: white;
+    border-top-left-radius: 0;
+    list-style: none;
 }
+
 #award {
-    font-size: 40px;
-            top: 73.2%;
+    font-size: 30px;
+            top: 66.2%;
             position: absolute;
-            right: 17%;
+            right: 28.7%;
             border: 2px solid rgb(235, 164, 11);
             border-radius: 10px;
             border-bottom-left-radius: 0;
@@ -235,9 +247,10 @@ padding: 10px;
     position: absolute;
     font-size: 20px;
     margin: 30px;
-    top: 80%;
+    top: 71%;
     border: 2px solid rgb(235, 164, 11);
     border-radius: 20px;
+    border-top-left-radius: 0;
     padding: 20px;
     width: 30%;
     left: 58%;
@@ -245,17 +258,40 @@ padding: 10px;
     color: white;
 }
 
-.references {
+#references {
     position: absolute;
-    font-size: 20px;
+    font-size: 12px;
     margin: 30px;
-    top: 80%;
+    top: 25%;
     border: 2px solid rgb(235, 164, 11);
     border-radius: 20px;
     padding: 20px;
-    width: 30%;
-    left: 58%;
+    width: 25%;
+    left: 61.5%;
     padding: 9px 20px 10px 35px;
     color: white;
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#refers {
+    position: absolute;
+    font-size: 20px;
+    margin: 30px;
+    top: 15.8%;
+    border: 2px solid rgb(235, 164, 11);
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 20px;
+    width: 30%;
+    left: 61.5%;
+    padding: 9px 20px 10px 20px;
+    color: white;
+    width: 100px;
+}
+.details {
+    font-size: 15px;
 }
 

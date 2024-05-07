@@ -47,13 +47,19 @@ data.education.forEach(edu => {
     educationContainer.appendChild(eduItem);
 });
         
-
-        const experienceList = document.getElementById('experience');
-        data.experience.forEach(experience => {
-            const li = document.createElement('li');
-            li.innerText = experience;
-            experienceList.appendChild(li);
-        });
+const experienceContainer = document.getElementById('experience');
+        data.experience.forEach(expe => {
+            const expeItem = document.createElement('li');
+            expeItem.classList.add('experience-item');
+            expeItem.innerHTML = `
+        <div class="jobtitle">
+            <p><b>Position:</b> ${expe.jobtitle}</p>
+            <p><b>Company Name:</b> ${expe.companyname}</p>
+        </div>
+        
+    `;
+    experienceContainer.appendChild(expeItem);
+});
         
 const referencesContainer = document.getElementById('references');
 data.references.forEach(refer => {
